@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+  <property name="hibernate.connection.password">Mtl1REfILFEs4oSHuyiL</property>
+  <property name="hibernate.connection.url">jdbc:mysql://ugj6td9mnskln76s:Mtl1REfILFEs4oSHuyiL@bfys3h7qfidqhimcl87m-mysql.services.clever-cloud.com:3306/bfys3h7qfidqhimcl87m</property>
+  <property name="hibernate.connection.username">ugj6td9mnskln76s</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+  <property name="hibernate.show_sql">true</property>
+  <property name="hibernate.format_sql">true</property>
+  <property name="hibernate.hbm2ddl.auto">create</property>
+  <property name="hibernate.order_inserts">false</property>
+  <mapping class="com.miempresa.proyectoAGD.User"/>
+  <mapping class="com.miempresa.proyectoAGD.Profesor"/>
+  <mapping class="com.miempresa.proyectoAGD.Alumno"/>
+  <mapping class="com.miempresa.proyectoAGD.Curso"/>
+ </session-factory>
+</hibernate-configuration>
